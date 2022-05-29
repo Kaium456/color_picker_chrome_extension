@@ -6,6 +6,8 @@
     "background":{
         "service_worker":"background.js"
     },
+    "permissions":["storage" ,"activeTab","scripting"],
+    "options_page":"option.html",
     "action":{
         "default_popup":"popup.html"
     },
@@ -14,4 +16,4 @@
         "32":"/images/picker_32.png",
         "48":"/images/picker_48.png"
     }
-}
+} 
